@@ -1,0 +1,55 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* regole blocco principale */
+#contenitore {
+  width: 60%;
+  margin: 10px auto;
+  height: 200px;
+}
+
+/* header */
+header {
+  margin-bottom: 20px;
+  height: 200px;
+  background-color: yellow;
+}
+
+/* parte principale */
+aside {
+  float: left;
+  width: 20%;
+  height: 190px;
+  background-color: pink;
+}
+
+.quadrati {
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+section {
+  float: left;
+  width: 50%;
+  margin: 0 5%;
+  height: 400px;
+  background-color: purple;
+}
+
+/* footer */
+footer {
+  margin-top: 17px;
+  margin-bottom: 10px;
+  height: 100px;
+  background-color: lightblue;
+}
