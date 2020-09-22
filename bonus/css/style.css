@@ -1,0 +1,74 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg");
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* regole blocco principale */
+#contenitore {
+  width: 60%;
+  margin: 10px auto;
+  /*height: 200px;*/
+}
+
+/* header */
+header {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.intestazione{
+  background-image: image(".../img/foresta.jpg");
+  width: auto;
+  height: 190px;
+  color: white;
+  text-align: center;
+  border: 5px solid white;
+}
+
+nav{
+  background-color: grey;
+  text-align:center;
+}
+
+/* parte principale */
+aside {
+  float: left;
+  width: 20%;
+  /*height: 190px;
+  background-color: pink;*/
+}
+
+.white-box {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: #000;
+}
+
+section {
+  float: left;
+  width: 50%;
+  margin: 0 5%;
+}
+
+/* footer */
+footer {
+  margin-top: 17px;
+  margin-bottom: 10px;
+  height: 100px;
+  background-color: lightblue;
+}
