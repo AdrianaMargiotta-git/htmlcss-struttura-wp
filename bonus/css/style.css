@@ -29,7 +29,7 @@ header {
 }
 
 .intestazione{
-  background-image: image(".../img/foresta.jpg");
+  background-image: url(".../img/foresta.jpg");
   width: auto;
   height: 190px;
   color: white;
@@ -71,4 +71,7 @@ footer {
   margin-bottom: 10px;
   height: 100px;
   background-color: lightblue;
+}
+#centrato{
+  text-align: center;
 }
